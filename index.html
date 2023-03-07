@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <!-- Local CSS File -->
+    <link href="/css/styles.css" rel="stylesheet" />
+    <!-- Local Bootstrap 5.2.2 file -->
+    <link
+      href="/css/Bootstrap5.2mini.css"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <!-- Start Single Page Apps for GitHub Pages -->
+    <script defer type="module">
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(
+            null,
+            null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      })(window.location);
+    </script>
+    <!-- End Single Page Apps for GitHub Pages -->
+    <title>Obsidain</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script crossorigin defer type="module" src="/src/index.tsx"></script>
+
+    <!-- Local Font Awesome 6.1 JS File -->
+    <script
+      crossorigin
+      defer
+      type="module"
+      src="/js/fontawesome6.1.js"
+    ></script>
+    <!-- Local Bootstrap 5.2.2 JS File -->
+    <script
+      crossorigin
+      defer
+      type="module"
+      src="/js/bootstrapcdnmini.js"
+    ></script>
+    <!-- ---------- For Login Page ---------- -->
+    <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
+ <!-- ---------- For Login Page ---------- -->
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="assets/css/login.css">
+  </body>
+</html>

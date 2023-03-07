@@ -1,2 +1,2 @@
-# Obsidian_RCM
-Revenue Cycle Management System for Simplexmed
+This project was bootstrapped with [Vite]. <br/>
+Documentation shall be provided later...

@@ -1,0 +1,138 @@
+.main-wrapper {
+  background: url(./obsidian-login-bg.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  background-color: #d0d0ce;
+  min-height: 100vh;
+}
+
+.login-card {
+  border: 0;
+  border-radius: 27.5px;
+  box-shadow: 0 10px 30px 0 #aca8a86e;
+  overflow: hidden;
+
+  background-image: linear-gradient(
+    to right,
+    rgb(206, 200, 200,.5),
+    rgb(143, 137, 137,.6),
+    rgb(143, 137, 137,.7),
+    grey
+  );
+  /* background-image: linear-gradient(
+    to right,
+    rgba(215, 241, 232, 0.1),
+    rgb(170, 229, 208),
+    aquamarine
+  ); */
+}
+.login-card-img {
+  border-radius: 0 !important;
+  position: absolute !important;
+  /* width: 50% !important;
+  height: auto !important; */
+  object-fit: cover !important;
+  background-repeat: no-repeat;
+}
+
+.img-wrapper {
+  opacity: "0.5";
+  display: "flex";
+  align-items: "center";
+  justify-content: "center";
+}
+
+.login-card .card-body {
+  padding: 85px 60px 60px;
+}
+
+.inputCss {
+  outline: none;
+  padding: 20px;
+  font-size: 16px;
+  height: 50px !important;
+}
+
+::-webkit-input-placeholder {
+  color: red;
+  font-size: 16px;
+  /* padding-left: 20px; */
+  opacity: 1; /* Firefox */
+}
+
+@media (max-width: 422px) {
+  /* .login-card .card-body { */
+  .login-card  {
+    padding: 35px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 20px ;
+  }
+  /* .login-card-img{
+    visibility: hidden;
+  }  */
+
+  
+  .login-card-img{
+    /* visibility: hidden; */
+    width: 100px;
+    /* border: 2px solid red; */
+    margin-top: -250px;
+    margin-left: 370px;
+    /* height: auto; */
+  } 
+}
+
+@media (max-width: 767px) {
+  .login-card .card-body {
+    padding: 35px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 20px ;
+  }
+  .login-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(
+    
+    rgb(143, 137, 137,.7),
+    rgb(143, 137, 137,.7),
+    rgb(143, 137, 137,.7),
+    grey
+  );
+  }
+  .login-card-img{
+    /* visibility: hidden; */
+    width: 100px;
+    /* border: 2px solid red; */
+    margin-top: -250px;
+    margin-left: 370px;
+    /* height: auto; */
+  } 
+}
+
+@media (min-width: 767px) {
+  .login-card .card-body {
+    padding: 35px 24px;
+  }
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+  .main-wrapper {
+    max-width: 2200px;
+    min-width: 1200px;
+    height: auto;
+  }
+
+  
+}
