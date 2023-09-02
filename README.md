@@ -1,2 +1,2 @@
 This project was bootstrapped with [Vite]. <br/>
-Documentation shall be provided later...
+
